@@ -1,0 +1,24 @@
+{
+  "name": "redisoplogtest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "meteor": "export MONGO_URL=mongodb://rjdavid:sample@127.0.0.1:27016/test && export REDIS_URL=redis://:90b9905de4a05f8d1ac886305eecf24433513540a7a1d0b06baf310a0506ed06@127.0.0.1:6378 && export REDIS_CONFIGURE_KEYSPACE_NOTIFICATIONS=1 && meteor run --port 3000 --settings settings-development.json"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.42",
+    "bee-queue": "^1.2.2",
+    "js-cookie": "^2.2.0",
+    "jsonwebtoken": "^8.2.0",
+    "md5": "^2.2.1",
+    "meteor-node-stubs": "^0.3.3",
+    "onsenui": "^2.9.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-google-maps": "^9.4.5",
+    "react-onsenui": "^1.10.0",
+    "sha512-es": "^1.8.2",
+    "simpl-schema": "^1.4.2",
+    "string-template": "^1.0.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "public": {
+    },
+
+    "private": {
+    },
+
+    "redisOplog": {
+        "redis": {
+            "port": 6378,
+            "host": "127.0.0.1",
+            "db": 2,
+            "password": "90b9905de4a05f8d1ac886305eecf24433513540a7a1d0b06baf310a0506ed06"
+        },
+        "retryIntervalMs": 10000,
+        "mutationDefaults": {
+            "optimistic": false,
+            "pushToRedis": true
+        },
+        "debug": true,
+        "overridePublishFunction": true
+    }
+}
